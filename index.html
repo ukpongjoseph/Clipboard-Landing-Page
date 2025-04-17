@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link rel="stylesheet" href="/landing.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<!-- .bai-jamjuree-regular{
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}  -->
+  <title>Frontend Mentor | Clipboard landing page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="origin">
+    <div class="parent-container flex flex-col justify-center">
+      <!-- first div -->
+      <div class="div1 flex flex-col px-3 py-7 gap-5 container md:mx-auto md:w-[11/12]">
+        <div class="logo">
+          <img class="mx-auto w-[30%] md:w-[20%] lg:w-[15%]" src="/images/logo.svg" alt="icon">
+        </div>
+        <div class="f-head">
+          <h1 class="text-center font-bold text-2xl py-3 md:text-3xl lg:text-4xl">A history of everything you copy</h1>
+          <p class="text-center text-md md:text-xl md:w-[600px] md:mx-auto lg:text-2xl lg:w-[700px]"> Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+        </div>
+        <div class="downloads flex flex-col gap-3 text-white font-semibold">
+          <button class="but1 w-[80%] md:py-2 md:w-[40%] lg:w-[25%] lg:py-3 lg:text-lg mx-auto rounded-full bg-[hsl(171,66%,44%)] py-1">Download for iOS</button> 
+          <button class="but2 w-[80%] md:py-2 md:w-[40%] lg:w-[25%] lg:py-3 lg:text-lg mx-auto rounded-full bg-[hsl(233,100%,69%)] py-1">Download for Mac</button>
+        </div>
+      </div>
+      <!-- second div -->
+      <div class="div2 flex flex-col gap-5 px-3 py-7 md:gap-10 container md:mx-auto md:w-[11/12]">
+        <div class="class flex flex-col gap-3">
+          <h2 class="font-bold text-center text-2xl lg:text-3xl">Keep track of your snippets</h2>
+          <p class="text-md text-center md:w-[600px] md:mx-auto"> Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+        </div>
+        <div class="holder flex flex-col gap-5 px-3 md:flex-row lg:gap-8">
+          <div class="screen md:flex-1">
+            <img class="w-[95%] mx-auto py-7" src="/images/image-computer.png" alt="icon">
+          </div>
+          <div class="quick flex flex-col md:flex-1 md:my-auto">
+            <h4 class="text-2xl font-bold text-center md:text-start md:text-xl lg:text-2xl"> Quick Search</h4>
+            <p class="text-md text-center pb-5 md:text-start md:pb-3 lg:w-[70%] lg:text-lg lg:pb-4">Easily search your snippets by content, category, web address, application, and more.</p>
+            <h4 class="text-2xl font-bold text-center md:text-start md:text-xl lg:text-2xl">iCloud Sync</h4>
+            <p class="text-md text-center pb-5 md:text-start md:pb-3 lg:w-[70%] lg:text-lg lg:pb-4">Instantly saves and syncs snippets across all your devices.</p>
+            <h4 class="text-2xl font-bold text-center md:text-start md:text-xl lg:text-2xl">Complete History</h4>
+            <p class="text-md text-center pb-5 md:text-start md:pb-3 lg:w-[70%] lg:text-lg lg:pb-4">Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+        </div>
+      </div>
+      <!-- third div -->
+      <div class="div3 flex flex-col px-3 gap-5 container md:mx-auto md:w-[11/12]">
+        <div class="div3-text flex flex-col gap-1">
+          <h2 class="font-bold text-2xl text-center lg:text-3xl">Access Clipboard anywhere</h2>
+          <p class="text-md text-center pb-3 md:w-[600px] md:mx-auto lg:text-lg lg:w-[700px]"> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+        </div>
+          <img class="w-[90%] mx-auto md:w-[70%]" src="/images/image-devices.png" alt="icon">
+        <div class="flex flex-col gap-1">
+          <h2 class="text-2xl text-center font-bold lg:text-3xl">Supercharge your workflow</h2>
+          <p class="text-md text-center lg:text-lg">We’ve got the tools to boost your productivity.</p>
+        </div>
+      </div>
+      <!-- fourth div -->
+      <div class="div4 flex flex-col gap-5 px-3 py-5 md:flex-row py-15 lg:gap-8 md:px-5 container md:mx-auto md:w-[11/12]">
+        <div class="black flex flex-col gap-3 md:flex-1">
+          <img class="w-[20%] mx-auto py-3" src="/images/icon-blacklist.svg" alt="icon">
+          <h4 class="text-center font-bold text-lg lg:text-xl">Create blacklists</h4>
+          <p class="text-center text-md lg:text-lg lg:w-[400px]">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
+        <div class="plain flex flex-col gap-3 md:flex-1">
+          <img class="w-[20%] mx-auto py-3" src="/images/icon-text.svg" alt="icon">
+          <h4 class="text-center font-bold text-lg lg:text-xl">Plain text snippets</h4>
+          <p class="text-center text-md lg:text-lg lg:w-[400px]">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="sneak flex flex-col gap-3 md:flex-1">
+          <img class="w-[20%] mx-auto py-3" src="/images/icon-preview.svg" alt="icon">
+          <h4 class="text-center font-bold text-lg lg:text-xl">Sneak preview</h4>
+          <p class="text-center text-md lg:text-lg lg:w-[400px]">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+      <!-- fifth div -->
+      <div class="G-GV flex flex-col gap-9 md:gap-3 py-8 md:flex-row lg:py-10 container md:mx-auto md:w-[11/12]">
+        <img class="w-[30%] mx-auto md:w-[15%] md:h-[40px]" src="/images/logo-google.png" alt="icon">
+        <img class="w-[30%] mx-auto md:w-[15%] md:h-[40px]" src="/images/logo-ibm.png" alt="icon">
+        <img class="w-[30%] mx-auto md:w-[15%] md:h-[40px]" src="/images/logo-microsoft.png" alt="icon">
+        <img class="w-[30%] mx-auto md:w-[15%] md:h-[40px]" src="/images/logo-hp.png" alt="icon">
+        <img class="w-[30%] mx-auto md:w-[15%] md:h-[40px]" src="/images/logo-vector-graphics.png" alt="icon">
+      </div>
+      <!-- sixth div -->
+      <div class="clipboard flex flex-col px-3 py-10 gap-5 container md:mx-auto md:w-[11/12]">
+          <h2 class="font-bold text-2xl pb-3 text-center lg:text-3xl">Clipboard for iOS and Mac OS</h2>
+          <p class="text-center text-sm md:w-[600px] lg:w-[700px] lg:text-lg md:mx-auto">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+        <div class="ios flex flex-col md:flex-row md:justify-center md:gap-6 gap-2">
+          <button class="but1 w-[80%] md:py-2 md:mx-[0] md:w-[40%] lg:w-[25%] lg:py-3 lg:text-lg mx-auto rounded-full bg-[hsl(171,66%,44%)] py-1 text-white font-semibold">Download for iOS</button>
+          <button class="but2 font-semibold text-white md:mx-[0] w-[80%] md:py-2 md:w-[40%] lg:w-[25%] lg:py-3 lg:text-lg mx-auto rounded-full bg-[hsl(233,100%,69%)] py-1">Download for Mac</button>
+        </div>
+      </div>
+      <!-- seventh footer -->
+      <div class="footer flex flex-col bg-[hsl(201,11%,66%)] px-5 py-10 gap-7 md:flex-row md:justify-between">
+        <div class="closing-logo">
+          <img class="w-[25%] mx-auto" src="/images/logo.svg" alt="">
+        </div>
+        <div class="grid flex flex-col gap-2 justify-center md:grid md:grid-cols-3">
+          <p>FAQs</p>
+          <p>Contact Us</p>
+          <p>Privacy Policy</p>
+          <p>Press Kit</p>
+          <p>Install Guide</p>
+        </div>
+        <div class="socials flex justify-center gap-5">
+          <span><img src="/images/icon-facebook.svg" alt="icon"></span>
+          <span><img src="/images/icon-twitter.svg" alt="icon"></span>
+          <span><img src="/images/icon-instagram.svg" alt="icon"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>

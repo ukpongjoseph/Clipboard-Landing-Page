@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.origin{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.parent-container{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background-color: white;
+    gap: 30px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 90px 30px 90px;
+    gap: 30px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.class{
+    padding: 0px 100px 0px 100px;
+}
+.holder{
+    display: flex;
+    gap: 30px;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 30px;
+}
+.div3 img{
+    width: 80%;
+    padding-left: 20%;
+}
+.div3-text{
+    padding: 0px 120px 0px 120px;
+}
+.div4{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    gap: 30px;
+}
+.G-GV{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    gap: 30px;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+}
+.logo img{
+    width: 80px;
+}
+.f-head p{
+    font-size: 18px;
+
+}
+.f-head h1{
+    font-size: 35px;
+}
+.but1{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+}
+.but2{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+}
+.screen{
+    display: flex;
+    flex: 1;
+}
+.screen img{
+    width: 100%;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.class{
+    text-align: center;
+}
+.class h2{
+    font-size: 30px;
+}
+.class p{
+    font-size: 18px;
+}
+.div3 h2{
+    font-size: 30px;
+}
+.div3 p{
+    font-size: 18px;
+}
+.black{
+    flex: 1;
+}
+.plain{
+    flex: 1;
+}
+.sneak{
+    flex: 1;
+}
+.G-GV img{
+    flex: 1;
+    width: 13%;
+    height: 70%;
+}
+.clipboard h2{
+    font-size: 30px;
+}
+.clipboard p{
+    font-size: 18px;
+}
+.closing-logo img{
+    width: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+}
+.grid p{
+    font-size: 15px;
+}
+.attribution{
+    display: none;
+}
+.socials{
+    display: flex;
+    gap: 30px;
+}
+.socials img{
+    width: 20px;
+}
